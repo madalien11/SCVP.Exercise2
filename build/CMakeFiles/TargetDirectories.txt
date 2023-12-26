@@ -1,0 +1,3 @@
+/Users/madikarsybekov/Desktop/RPTU/SystemC/my/SCVP.Exercise2/build/CMakeFiles/exercise2.dir
+/Users/madikarsybekov/Desktop/RPTU/SystemC/my/SCVP.Exercise2/build/CMakeFiles/edit_cache.dir
+/Users/madikarsybekov/Desktop/RPTU/SystemC/my/SCVP.Exercise2/build/CMakeFiles/rebuild_cache.dir
