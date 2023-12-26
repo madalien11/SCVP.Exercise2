@@ -1,5 +1,5 @@
 $date
-     Dec 26, 2023       18:52:25
+     Dec 26, 2023       19:10:26
 $end
 
 $version
@@ -11,9 +11,10 @@ $timescale
 $end
 
 $scope module SystemC $end
-$var wire    1  aaaaa  A       $end
-$var wire    1  aaaab  B       $end
-$var wire    1  aaaac  Z       $end
+$var wire    1  aaaaa  Clk       $end
+$var wire    1  aaaab  A       $end
+$var wire    1  aaaac  B       $end
+$var wire    1  aaaad  Z       $end
 $upscope $end
 $enddefinitions  $end
 
@@ -22,25 +23,45 @@ All initial values are dumped below at time 0 sec = 0 timescale units.
 $end
 
 $dumpvars
-0aaaaa
-0aaaab
-0aaaac
-$end
-
-#10000
-1aaaab
-1aaaac
-
-#25000
 1aaaaa
 0aaaab
+0aaaac
+0aaaad
+$end
+
+#5000
+0aaaaa
+
+#10000
+1aaaaa
+1aaaac
+1aaaad
+
+#15000
+0aaaaa
+
+#20000
+1aaaaa
+1aaaab
+0aaaac
+
+#25000
+0aaaaa
+
+#30000
+1aaaaa
+1aaaac
+0aaaad
 
 #35000
-1aaaab
+0aaaaa
+
+#40000
+1aaaaa
+0aaaab
 0aaaac
 
 #45000
 0aaaaa
-0aaaab
 
-#55000
+#50000
