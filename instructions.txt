@@ -1,0 +1,19 @@
+On terminal set env variables
+export SYSTEMC_HOME=/opt/systemc/
+export SYSTEMC_TARGET_ARCH=macosxarm
+cmake ..
+change cxx compiler in CMakeCache.txt to 
+/opt/homebrew/bin/g++-11
+make -j 4
+./exercise2
+
+
+fork
+clone
+git add .
+git commit -m ""
+git remote rm origin
+git remote add origin git@github.com:madalien11/SCVP.Exercise2.git
+git push --set-upstream origin master
+
+https://github.com/TUK-SCVP/SCVP.artifacts
